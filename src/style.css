@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px !important;
+  font-size: 96px;
 }
 
 h2 {
@@ -71,6 +71,21 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 31px;
+  }
+  .button-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 .about-paragraph {
